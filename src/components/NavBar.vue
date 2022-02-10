@@ -62,7 +62,7 @@
 						></li
 					><li
 						><a
-							class="lg:py-2 py-3 px-7 block border-b-2 border-transparent bg-emerald-600 lg:mb-0 mb-2 text-white font-bold lg:ml-6 uppercase rounded"
+							class="btn lg:py-2 py-3 px-7 block border-b-2 border-transparent lg:mb-0 mb-2 text-white font-bold lg:ml-6 uppercase rounded"
 							href="#"
 							>Register</a
 						></li
@@ -80,5 +80,8 @@
 
 .title1 {
 	color: #647b64;
+}
+.btn {
+	background-color: #647b64;
 }
 </style>
