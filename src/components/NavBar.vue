@@ -2,7 +2,7 @@
 
 <template>
 	<header
-		class="lg:px-16 px-6 bg-white flex flex-wrap items-center lg:py-0 py-2 mt-4"
+		class="lg:px-16 px-6 bg-transparent flex flex-wrap items-center lg:py-0 py-2"
 	>
 		<div class="flex-1 flex justify-between items-center">
 			<a href="#">

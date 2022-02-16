@@ -52,7 +52,7 @@ export default {
 			<div class="grid grid-cols-2 gap-2 mt-10">
 				<div class="px-24">
 					<h1 class="my-3 subtitle">MOT consectet</h1>
-					<h2 class="text-2xl font-bold">amet,consectet</h2>
+					<h2 class="text-2xl font-bold title">amet,consectet</h2>
 					<p class="leading-7 my-7 text-base"
 						>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
 						vitae nullam aliquet dignissim quis. Vel, faucibus ac justo aliquam
@@ -78,7 +78,9 @@ export default {
 					></button>
 				</div>
 				<div class="grid grid-cols-2 gap-1 w-full">
-					<div class="pt-10 px-5 bg-slate-200 w-11/12 my-5 pb-7 rounded">
+					<div
+						class="pt-10 px-5 bg-white shadow-md cursor-pointer hover:shadow-2xl w-11/12 my-5 pb-7 rounded"
+					>
 						<div
 							class="car w-12 h-12 flex justify-center items-center rounded mb-4"
 						>
@@ -90,7 +92,9 @@ export default {
 							vitae
 						</p>
 					</div>
-					<div class="pt-10 px-5 bg-slate-200 w-11/12 my-5 pb-7 rounded">
+					<div
+						class="pt-10 px-5 bg-white shadow-md cursor-pointer hover:shadow-2xl w-11/12 my-5 pb-7 rounded"
+					>
 						<div
 							class="w-12 h-12 flex justify-center items-center rounded mb-4"
 						>
@@ -102,7 +106,9 @@ export default {
 							vitae
 						</p>
 					</div>
-					<div class="pt-10 px-5 bg-slate-200 w-11/12 my-5 pb-7 rounded">
+					<div
+						class="pt-10 px-5 bg-white shadow-md cursor-pointer hover:shadow-2xl w-11/12 my-5 pb-7 rounded"
+					>
 						<div
 							class="w-12 h-12 flex justify-center items-center rounded mb-4"
 						>
@@ -114,7 +120,9 @@ export default {
 							vitae
 						</p>
 					</div>
-					<div class="pt-10 px-5 bg-slate-200 w-11/12 my-5 pb-7 rounded">
+					<div
+						class="pt-10 px-5 bg-white shadow-md cursor-pointer hover:shadow-2xl w-11/12 my-5 pb-7 rounded"
+					>
 						<div
 							class="w-12 h-12 flex justify-center items-center rounded mb-4"
 						>
@@ -130,14 +138,16 @@ export default {
 			</div>
 			<div class="mt-16 mb-10">
 				<h2 class="text-center my-3 subtitle">MOT consectet</h2>
-				<h3 class="text-center text-2xl font-bold">amet,consectet iquet</h3>
+				<h3 class="text-center text-2xl font-bold title"
+					>amet,consectet iquet</h3
+				>
 				<div class="">
 					<div class="grid grid-cols-3 gap-5 mx-24">
-						<div class="pt-10 px-10 bg-slate-200 my-2 pb-10 rounded">
+						<div class="pt-10 px-10 bg-white shadow-2xl my-2 pb-10 rounded">
 							<div
 								class="w-12 h-12 flex justify-center items-center rounded mb-4"
 							>
-								<img src="../assets/python.svg" alt="" class="w-5" />
+								<img src="../assets/python.svg" alt="" class="w-9/12" />
 							</div>
 							<h3 class="text-lg font-semibold uppercase">MOT consectet</h3>
 							<p class="text-sm"
@@ -145,11 +155,11 @@ export default {
 								quis vitae
 							</p>
 						</div>
-						<div class="pt-10 px-10 bg-slate-200 my-2 pb-10 rounded">
+						<div class="pt-10 px-10 text-white my-2 pb-10 rounded dark">
 							<div
 								class="w-12 h-12 flex justify-center items-center rounded mb-4"
 							>
-								<img src="../assets/iost-(iost).svg" alt="" class="w-5" />
+								<img src="../assets/iost-(iost).svg" alt="" class="w-9/12" />
 							</div>
 							<h3 class="text-lg font-semibold uppercase">MOT consectet</h3>
 							<p class="text-sm"
@@ -157,11 +167,11 @@ export default {
 								quis vitae
 							</p>
 						</div>
-						<div class="pt-10 px-10 bg-slate-200 my-2 pb-10 rounded">
+						<div class="pt-10 px-10 bg-white shadow-2xl my-2 pb-10 rounded">
 							<div
 								class="w-12 h-12 flex justify-center items-center rounded mb-4"
 							>
-								<img src="../assets/Vector.svg" alt="" class="w-5" />
+								<img src="../assets/Vector.svg" alt="" class="w-9/12" />
 							</div>
 							<h3 class="text-lg font-semibold uppercase">MOT consectet</h3>
 							<p class="text-sm"
@@ -179,7 +189,7 @@ export default {
 					</div>
 					<div class="px-24">
 						<h1 class="my-3 subtitle">MOT consectet</h1>
-						<h2 class="text-2xl font-bold">amet,consectet</h2>
+						<h2 class="text-2xl font-bold title">amet,consectet</h2>
 						<p class="leading-7 my-7 text-base"
 							>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
 							vitae nullam aliquet dignissim quis. Vel, faucibus ac justo
@@ -212,6 +222,9 @@ export default {
 	</main>
 </template>
 <style scoped>
+.title {
+	color: #647b64;
+}
 .car {
 	background-color: #647b64;
 }
@@ -220,5 +233,8 @@ export default {
 }
 .subtitle {
 	color: #f3b562;
+}
+.dark {
+	background-color: #647b64;
 }
 </style>

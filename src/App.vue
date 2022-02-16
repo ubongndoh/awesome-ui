@@ -22,5 +22,7 @@ export default {
 	text-align: center;
 	color: #2c3e50; */
 	/* margin-top: 60px; */
+	/* background: linear-gradient(200deg, #e5e5e5 0%, #ffffff 100%); */
+	background: linear-gradient(200deg, #f9f9f9 0%, #ffffff 100%);
 }
 </style>
