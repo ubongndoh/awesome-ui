@@ -16,7 +16,7 @@ export default {
 		<NavBar />
 		<section>
 			<div class="grid grid-cols-2 gap-2 justify-center items-center mt-16">
-				<div class="px-24">
+				<div class="px-24 -mr-10">
 					<h2 class="text-2xl font-bold"
 						>Lorem ipsum dolor <br />
 						sit amet, consectetur</h2
@@ -27,7 +27,7 @@ export default {
 						vivamus lorem.
 					</p>
 					<button
-						class="btn flex flex-row uppercase justify-between pl-3 lg:py-2 py-8 w-4/6 border-b-2 border-transparent mb-2 text-white font-bold rounded text-left"
+						class="btn flex flex-row uppercase justify-between pl-3 lg:py-5 py-10 w-3/6 border-b-2 border-transparent mb-2 text-white font-bold rounded text-left"
 						>Get STARTED
 						<span class="pr-4"
 							><svg
